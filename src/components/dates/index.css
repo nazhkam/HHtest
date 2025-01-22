@@ -1,0 +1,23 @@
+.dates{
+  display: flex;
+  gap: 60px;
+  font-size: 180px;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+.date-1{
+  color: #5d5fef;
+}
+.date-2{
+  color: #ef5da8;
+}
+@media screen and (max-width: 600px) {
+  .dates{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+}

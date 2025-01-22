@@ -1,0 +1,43 @@
+.slide{
+  height: 135px;
+  width: 320px;
+  text-align: center;
+  border: 3px solid black;
+}
+.swiper{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin: 30px;
+}
+.swiper-pagination{
+  position: relative;
+  display: none;
+
+}
+.swiper-wrapper{
+  margin: 0 30px;
+}
+.swiper-button-prev{
+  width: 40px;
+  height: 40px;
+
+}
+@media screen and (max-width: 600px) {
+  .swiper-button-prev, .swiper-button-next{
+    display: none;
+
+  }
+  .swiper-wrapper{
+    margin: 0;
+  }
+  .swiper{
+    border-top: 1px solid black;
+  }
+  .swiper-pagination{
+    position: absolute;
+    bottom: 0;
+    display: block;
+  }
+}

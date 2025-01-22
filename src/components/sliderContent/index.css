@@ -1,0 +1,10 @@
+.slider-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.year{
+  color: #3877EE;
+  font-weight: 400;
+  font-size: 25px;
+}

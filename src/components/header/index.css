@@ -1,0 +1,24 @@
+.header{
+  padding-left: 80px;
+  font-size: 56px;
+  width: 100%;
+  font-weight: 700;
+  line-height: 67px;
+  color: #42567A;
+  border-left: 5px solid transparent;
+  border-image: linear-gradient(to top, #3877EE, #EF5DA8);
+  border-image-slice: 1;
+}
+@media screen and (max-width: 600px) {
+  .header{
+    width: auto;
+    border: none;
+    padding-top: 60px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+
+  }
+
+}

@@ -1,0 +1,37 @@
+.navigate-block{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 2;
+
+}
+.navigate-buttons{
+  display: flex;
+  gap: 10px;
+}
+.prev-button, .next-button{
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #42567A;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+
+}
+.navigate-info{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #42567A;
+}
+@media screen and (max-width: 600px) {
+  .navigate-block{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
